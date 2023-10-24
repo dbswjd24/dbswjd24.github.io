@@ -1,0 +1,65 @@
+/* Part 1: Keyframe animation for ball bounce */
+@keyframes bounce {
+    0% {
+        transform: translateY(-200px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+/* Part 2: Keyframe animation for shadow change */
+@keyframes shadowChange {
+    0% {
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+        opacity: 0.6;
+        transform: scale(0.5);
+    }
+    100% {
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+/* Styling for ball and shadow */
+#ball {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fd6c2d;
+    z-index: 1;
+    animation: bounce 0.45s cubic-bezier(0.42, 0, 0.7, 0.5) infinite alternate;
+    position: absolute;
+    top: calc(50% - 75px); /* Center vertically */
+    left: calc(50% - 75px); /* Center horizontally */
+}
+
+#shadow {
+    height: 50px;
+    width: 160px;
+    background: black;
+    border-radius: 50%;
+    animation: shadowChange 0.45s cubic-bezier(0.42, 0, 0.7, 0.5) infinite alternate;
+    position: absolute;
+    top: calc(50% + 75px); /* Position below the ball vertically */
+    left: calc(50% - 80px); /* Center horizontally with the ball */
+}
+
+body, html {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background: #f7f5f2;
+    position: relative;
+}
