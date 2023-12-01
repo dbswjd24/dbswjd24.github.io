@@ -1,0 +1,237 @@
+.wireframe {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .wireframe .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .wireframe .overlap-group {
+    position: relative;
+    height: 1024px;
+    background-color: #eae5e1;
+  }
+  
+  .wireframe .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 987px;
+    top: 10px;
+    left: 0;
+  }
+  
+  .wireframe .div {
+    position: absolute;
+    width: 500px;
+    height: 137px;
+    top: 0;
+    left: 799px;
+  }
+  
+  .wireframe .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #665343;
+    font-size: 96px;
+    text-align: right;
+    letter-spacing: 9.6px;
+    line-height: normal;
+  }
+  
+  .wireframe .portfolio-shadow {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #0000001a;
+    font-size: 96px;
+    text-align: right;
+    letter-spacing: 9.6px;
+    line-height: normal;
+  }
+  
+  .wireframe .overlap-2 {
+    position: absolute;
+    width: 1388px;
+    height: 918px;
+    top: 69px;
+    left: 0;
+  }
+  
+  .wireframe .line {
+    width: 1430px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .wireframe .eileen {
+    position: absolute;
+    width: 501px;
+    height: 872px;
+    top: 0px;
+    left: 140px;
+  }
+  
+  .wireframe .img {
+    width: 1px;
+    height: 105px;
+    top: 0;
+    left: 250px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .wireframe .intersect {
+    position: absolute;
+    width: 501px;
+    height: 767px;
+    top: 105px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .wireframe .text-wrapper-2 {
+    position: absolute;
+    top: 488px;
+    left: 269px;
+    font-family: "Nanum Myeongjo-ExtraBold";
+    font-weight: 800;
+    color: #806955;
+    font-size: 200px;
+    text-align: right;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .wireframe .text-wrapper-3 {
+    position: absolute;
+    top: 688px;
+    left: 707px;
+    font-family: "Nanum Myeongjo-ExtraBold";
+    font-weight: 800;
+    color: #806955;
+    font-size: 200px;
+    text-align: right;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .wireframe .text-wrapper-4 {
+    position: absolute;
+    top: 488px;
+    left: 284px;
+    font-family: "Nanum Myeongjo-ExtraBold";
+    font-weight: 800;
+    color: #80695533;
+    font-size: 200px;
+    text-align: right;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .wireframe .text-wrapper-5 {
+    position: absolute;
+    top: 688px;
+    left: 722px;
+    font-family: "Nanum Myeongjo-ExtraBold";
+    font-weight: 800;
+    color: #80695533;
+    font-size: 200px;
+    text-align: right;
+    letter-spacing: 6px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .wireframe .line-2 {
+    width: 134px;
+    height: 1px;
+    top: 69px;
+    left: 1310px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .wireframe .text-wrapper-6 {
+    position: absolute;
+    top: 952px;
+    left: 138px;
+    font-family: "Nanum Myeongjo-ExtraBold";
+    font-weight: 800;
+    color: #665343;
+    font-size: 30.5px;
+    letter-spacing: 0.96px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .wireframe .i-m-a-freshman-at-UC {
+    position: absolute;
+    top: 455px;
+    left: 800px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #665343;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .group-2 {
+    position: absolute;
+    width: 502px;
+    height: 57px;
+    top: 11px;
+    left: 118px;
+  }
+  
+  .wireframe .text-wrapper-7 {
+    position: absolute;
+    top: 10px;
+    left: 530px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #665343;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .text-wrapper-8 {
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #665343;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .text-wrapper-9 {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    font-family: "Malayalam MN-Regular";
+    font-weight: 400;
+    color: #665343;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }

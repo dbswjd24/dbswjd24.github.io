@@ -1,0 +1,255 @@
+.wireframe {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.wireframe .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.wireframe .overlap-group {
+  position: relative;
+  height: 1024px;
+  background-color: #eae5e1;
+}
+
+.wireframe .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 137px;
+  top: 10px;
+  left: 0;
+}
+
+.wireframe .div {
+  position: absolute;
+  width: 1232px;
+  height: 771px;
+  top: 166px;
+  left: 108px;
+  border-radius: 51px;
+  border: 1px solid;
+  border-color: #665343;
+}
+
+.wireframe .projects-shadow {
+  position: absolute;
+  top: -150px;
+  right: 40px;
+  font-family: "Malayalam MN-Regular";
+  font-weight: 400;
+  color: #0000001a;
+  font-size: 96px;
+  text-align: right;
+  letter-spacing: 9.6px;
+  line-height: normal;
+}
+.wireframe .text-wrapper {
+  position: absolute;
+  top: -150px;
+  right: 30px;
+  font-family: "Malayalam MN-Regular";
+  font-weight: 400;
+  color: #665343;
+  font-size: 96px;
+  text-align: right;
+  letter-spacing: 9.6px;
+  line-height: normal;
+}
+
+.wireframe .line {
+  width: 1430px;
+  height: 1px;
+  top: -100px;
+  left: -100px;
+  position: absolute;
+}
+
+.wireframe .img {
+  width: 134px;
+  height: 1px;
+  top: 69px;
+  left: 1306px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.wireframe .group {
+  position: absolute;
+  width: 502px;
+  height: 57px;
+  top: 1px;
+  left: 118px;
+}
+
+.wireframe .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  font-family: "Malayalam MN-Regular";
+  font-weight: 400;
+  color: #665343;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Malayalam MN-Regular";
+  font-weight: 400;
+  color: #665343;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .text-wrapper-4 {
+  left: 335px;
+  color: #665343;
+  font-size: 40px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Malayalam MN-Regular";
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wireframe .overlap-2 {
+  position: absolute;
+  width: 1232px;
+  height: 771px;
+  top: 166px;
+  left: 108px;
+  border-radius: 51px;
+  border: 1px solid;
+  border-color: #665343;
+}
+
+.wireframe .longline {
+  position: absolute;
+  width: 1232px;
+  height: 1px;
+  top: 10px;
+  left: -1px;
+  object-fit: cover;
+}
+
+.wireframe .search {
+  position: absolute;
+  width: 33px;
+  height: 29px;
+  top: 78px;
+  left: -1px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #665343;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Specific adjustments for the long line and search bar */
+.wireframe .longline {
+  top: calc(50% + 20px); /* Adjust position below the frame */
+  z-index: 1;
+}
+
+.wireframe .search {
+  top: calc(50% - 20px); /* Adjust position above the frame */
+  z-index: 3;
+}
+
+/* Image Carousel */
+.carousel {
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 771px;
+}
+
+.carousel-images img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-images img.active {
+  display: block;
+}
+
+/* Buttons for next and previous */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}

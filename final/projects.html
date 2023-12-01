@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/css/projects.css" />
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <div class="wireframe">
+    <div class="overlap-wrapper">
+      <div class="overlap">
+        <div class="overlap-group">
+          <div class="div">
+            <div class="projects-shadow">Projects</div>
+            <div class="text-wrapper">Projects</div>
+            <img class="line" src="assets/img/line.png"/>
+          </div>
+          <div class="group">
+            <a href="resume.html" class="resume-link">
+              <div class="text-wrapper-2">resume</div>
+            </a>
+            <a href="index.html" class="home-link">
+              <div class="text-wrapper-3">home</div>
+            </a>
+            <a href="projects.html" class="projects-link">
+              <div class="text-wrapper-4">projects</div>
+            </a>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+              <a href="#graphic-design-carousel">Graphic Design</a>
+              <a href="https://dbswjd24.github.io/homeworks/index.html">Web Design</a>
+            </div>
+          </div>
+        </div>
+        <div id="graphic-design-carousel" class="carousel">
+          <div class="carousel-images">
+            <img src="assets/img/aka logo.png" alt="Graphic Design 1" class="active">
+            <img src="assets/img/hoodie.png" alt="Graphic Design 2">
+            <img src="assets/img/LFD logo design 1.png" alt="Graphic Design 3">
+            <img src="assets/img/LFD logo design 2.png" alt="Graphic Design 4">
+            <img src="assets/img/LFD logo design 3.png" alt="Graphic Design 5">
+          </div>
+          <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+          <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
